@@ -16,4 +16,7 @@ class Animal
         @@all
     end
 
+    def self.find_by_species(spec)
+        Animal.all.select { |breed| breed.species == spec }
+    end
 end

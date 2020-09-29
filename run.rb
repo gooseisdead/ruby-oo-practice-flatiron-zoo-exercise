@@ -10,11 +10,13 @@ menifee = Zoo.new("Menifee Zoo", "Menifee, CA")
 
 cat = Animal.new("cat", 13, "Penny")
 feline = Animal.new("cat", 10, "Garfield")
+horse = Animal.new("horse", 488, "Mr. Ed")
 kitty = Animal.new("kitty", 8, "Raisin")
 sasha = Animal.new("kitty", 7, "Sasha")
 
 cat.zoo = bronx
 feline.zoo = bronx
+horse.zoo = bronx
 kitty.zoo = cpk
 sasha.zoo = menifee
 
